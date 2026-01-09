@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth_provider.homeassistant",
+  "data": {
+    "users": [
+      {
+        "username": "gandham",
+        "password": "JDJiJDEyJERNTzJOM3o1OXZ2NHlrQlhOQ015emUvY2NtNUlEMTJ3OEpFTUExTm82aVNFazhZSURZZEhH"
+      }
+    ]
+  }
+}

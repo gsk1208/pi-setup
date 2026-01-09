@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "gandham",
+        "name": "Gandham",
+        "user_id": "751b0dcd15df41a780586ffe8b6c1d15",
+        "device_trackers": []
+      }
+    ]
+  }
+}

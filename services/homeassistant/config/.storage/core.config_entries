@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "minor_version": 5,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {"created_at":"2025-12-31T13:00:11.520235+00:00","data":{},"disabled_by":null,"discovery_keys":{},"domain":"sun","entry_id":"01KDT7X5C02AZXZSN1NTYXSGSV","minor_version":1,"modified_at":"2025-12-31T13:00:11.520248+00:00","options":{},"pref_disable_new_entities":false,"pref_disable_polling":false,"source":"import","subentries":[],"title":"Sun","unique_id":null,"version":1},
+      {"created_at":"2025-12-31T13:00:13.313033+00:00","data":{},"disabled_by":null,"discovery_keys":{},"domain":"bluetooth","entry_id":"01KDT7X740F9XEY7SWEXD17G4T","minor_version":1,"modified_at":"2025-12-31T13:00:13.313045+00:00","options":{},"pref_disable_new_entities":false,"pref_disable_polling":false,"source":"integration_discovery","subentries":[],"title":"Raspberry Pi (Trading) Ltd bcm43438-bt (2C:CF:67:B2:79:F6)","unique_id":"2C:CF:67:B2:79:F6","version":1},
+      {"created_at":"2025-12-31T13:00:13.324424+00:00","data":{},"disabled_by":null,"discovery_keys":{},"domain":"go2rtc","entry_id":"01KDT7X74CNBRBBE2WQ03TYC9B","minor_version":1,"modified_at":"2025-12-31T13:00:13.324435+00:00","options":{},"pref_disable_new_entities":false,"pref_disable_polling":false,"source":"system","subentries":[],"title":"go2rtc","unique_id":null,"version":1},
+      {"created_at":"2025-12-31T13:00:13.336369+00:00","data":{},"disabled_by":null,"discovery_keys":{},"domain":"backup","entry_id":"01KDT7X74RSW5WF2D9JX3TM6FB","minor_version":1,"modified_at":"2025-12-31T13:00:13.336379+00:00","options":{},"pref_disable_new_entities":false,"pref_disable_polling":false,"source":"system","subentries":[],"title":"Backup","unique_id":null,"version":1},
+      {"created_at":"2025-12-31T13:38:08.596100+00:00","data":{},"disabled_by":null,"discovery_keys":{},"domain":"shopping_list","entry_id":"01KDTA2N2KP5M60XPPTJEZ00XK","minor_version":1,"modified_at":"2025-12-31T13:38:08.596115+00:00","options":{},"pref_disable_new_entities":false,"pref_disable_polling":false,"source":"onboarding","subentries":[],"title":"Shopping list","unique_id":"shopping_list","version":1},
+      {"created_at":"2025-12-31T13:38:08.699069+00:00","data":{"language":"en","tld":"com"},"disabled_by":null,"discovery_keys":{},"domain":"google_translate","entry_id":"01KDTA2N5VT0W6MS99G8CT3QCX","minor_version":1,"modified_at":"2025-12-31T13:38:08.699079+00:00","options":{},"pref_disable_new_entities":false,"pref_disable_polling":false,"source":"onboarding","subentries":[],"title":"Google Translate text-to-speech","unique_id":null,"version":1},
+      {"created_at":"2025-12-31T13:38:09.130366+00:00","data":{},"disabled_by":null,"discovery_keys":{},"domain":"radio_browser","entry_id":"01KDTA2NKA61001WTKSKXDFHBT","minor_version":1,"modified_at":"2025-12-31T13:38:09.130376+00:00","options":{},"pref_disable_new_entities":false,"pref_disable_polling":false,"source":"onboarding","subentries":[],"title":"Radio Browser","unique_id":null,"version":1}
+    ]
+  }
+}

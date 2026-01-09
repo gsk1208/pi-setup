@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "bluetooth.remote_scanners",
+  "data": {
+    "2C:CF:67:B2:79:F6": {
+      "connectable": true,
+      "expire_seconds": 195.0,
+      "discovered_device_advertisement_datas": {
+        "18:F3:DF:95:C7:BE": {
+          "device": {
+            "address": "18:F3:DF:95:C7:BE",
+            "name": null,
+            "rssi": -54,
+            "details": {
+              "source": "2C:CF:67:B2:79:F6",
+              "path": "/org/bluez/hci0/dev_18_F3_DF_95_C7_BE",
+              "props": {
+                "Adapter": "/org/bluez/hci0"
+              }
+            }
+          },
+          "advertisement_data": {
+            "local_name": null,
+            "manufacturer_data": {
+              "6": "0109212a1673f2b6b5b44c4150544f502d4a47325630424144"
+            },
+            "service_data": {},
+            "service_uuids": [],
+            "rssi": -54,
+            "tx_power": -127,
+            "platform_data": []
+          }
+        }
+      },
+      "discovered_device_timestamps": {
+        "18:F3:DF:95:C7:BE": 1767202621.1782458
+      },
+      "discovered_device_raw": {
+        "18:F3:DF:95:C7:BE": "1cff06000109212a1673f2b6b5b44c4150544f502d4a47325630424144"
+      }
+    }
+  }
+}

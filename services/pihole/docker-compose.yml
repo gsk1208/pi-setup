@@ -1,0 +1,19 @@
+
+services:
+  pihole:
+    container_name: pihole
+    build: .
+    image: custom-pihole:latest
+    env_file:
+      - .env
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "80:80"
+    volumes:
+      - ./etc-pihole:/etc/pihole
+      - ./etc-dnsmasq.d:/etc/dnsmasq.d
+    dns:
+      - 127.0.0.1
+      - 1.1.1.1
+    restart: unless-stopped

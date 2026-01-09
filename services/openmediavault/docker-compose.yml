@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  omv:
+    container_name: openmediavault
+    image: openmediavault/openmediavault:latest
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+    env_file:
+      - .env
+    volumes:
+      - ./config:/etc/openmediavault
+      - /dev:/dev
+      - /proc:/proc
+      - /sys:/sys
+      - /run:/run

@@ -1,0 +1,14 @@
+
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: ghcr.io/home-assistant/home-assistant:stable
+    platform: linux/arm64
+    privileged: true
+    network_mode: host
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./config:/config
+      - /run/dbus:/run/dbus:ro
