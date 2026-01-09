@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "minor_version": 12,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {"area_id":null,"config_entries":["01KDT7X5C02AZXZSN1NTYXSGSV"],"config_entries_subentries":{"01KDT7X5C02AZXZSN1NTYXSGSV":[null]},"configuration_url":null,"connections":[],"created_at":"2025-12-31T13:00:11.527837+00:00","disabled_by":null,"entry_type":"service","hw_version":null,"id":"50e3fbc48194667653440345e27288e5","identifiers":[["sun","01KDT7X5C02AZXZSN1NTYXSGSV"]],"labels":[],"manufacturer":null,"model":null,"model_id":null,"modified_at":"2025-12-31T13:00:11.527982+00:00","name_by_user":null,"name":"Sun","primary_config_entry":"01KDT7X5C02AZXZSN1NTYXSGSV","serial_number":null,"sw_version":null,"via_device_id":null},
+      {"area_id":null,"config_entries":["01KDT7X740F9XEY7SWEXD17G4T"],"config_entries_subentries":{"01KDT7X740F9XEY7SWEXD17G4T":[null]},"configuration_url":null,"connections":[["bluetooth","2C:CF:67:B2:79:F6"]],"created_at":"2025-12-31T13:00:13.313811+00:00","disabled_by":null,"entry_type":null,"hw_version":"usb:v1D6Bp0246d0552","id":"b035b53354f8f22a78619ebcd10a951f","identifiers":[],"labels":[],"manufacturer":"Raspberry Pi (Trading) Ltd","model":"bcm43438-bt","model_id":null,"modified_at":"2025-12-31T13:00:13.313913+00:00","name_by_user":null,"name":"hci0 (2C:CF:67:B2:79:F6)","primary_config_entry":"01KDT7X740F9XEY7SWEXD17G4T","serial_number":null,"sw_version":"pi4b","via_device_id":null},
+      {"area_id":null,"config_entries":["01KDT7X74RSW5WF2D9JX3TM6FB"],"config_entries_subentries":{"01KDT7X74RSW5WF2D9JX3TM6FB":[null]},"configuration_url":"homeassistant://config/backup","connections":[],"created_at":"2025-12-31T13:00:13.394757+00:00","disabled_by":null,"entry_type":"service","hw_version":null,"id":"a254ae8a9f6b8708efc641858ad74f34","identifiers":[["backup","backup_manager"]],"labels":[],"manufacturer":"Home Assistant","model":"Home Assistant Backup","model_id":null,"modified_at":"2025-12-31T13:00:13.394873+00:00","name_by_user":null,"name":"Backup","primary_config_entry":"01KDT7X74RSW5WF2D9JX3TM6FB","serial_number":null,"sw_version":"2025.12.5","via_device_id":null}
+    ],
+    "deleted_devices": []
+  }
+}

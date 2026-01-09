@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2025-12-31T17:39:54.610963+00:00","last_reported":"2025-12-31T17:39:54.610963+00:00","last_updated":"2025-12-31T17:39:54.610963+00:00","context":{"id":"01KDTQXB3J0RGSAG8P8SPVM70Y","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-12-31T17:39:58.497183+00:00"
+    },
+    {
+      "state": {"entity_id":"event.backup_automatic_backup","state":"unknown","attributes":{"event_types":["completed","failed","in_progress"],"event_type":null,"friendly_name":"Backup Automatic backup"},"last_changed":"2025-12-31T17:39:54.782839+00:00","last_reported":"2025-12-31T17:39:54.782839+00:00","last_updated":"2025-12-31T17:39:54.782839+00:00","context":{"id":"01KDTQXB8YNJM84SWGWK80HAW4","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "last_event_type": null,
+        "last_event_attributes": null
+      },
+      "last_seen": "2025-12-31T17:39:58.497183+00:00"
+    },
+    {
+      "state": {"entity_id":"person.gandham","state":"unknown","attributes":{"editable":true,"id":"gandham","device_trackers":[],"source":"person.gandham","user_id":"751b0dcd15df41a780586ffe8b6c1d15","friendly_name":"Gandham"},"last_changed":"2025-12-31T17:39:55.931367+00:00","last_reported":"2025-12-31T17:39:55.931367+00:00","last_updated":"2025-12-31T17:39:55.931367+00:00","context":{"id":"01KDTQXCCVSTAWHM5ZVJY1MQWQ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-12-31T17:39:58.497183+00:00"
+    },
+    {
+      "state": {"entity_id":"tts.google_translate_en_com","state":"unknown","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2025-12-31T17:39:58.154406+00:00","last_reported":"2025-12-31T17:39:58.154406+00:00","last_updated":"2025-12-31T17:39:58.154406+00:00","context":{"id":"01KDTQXEJAGDAGAMNNN50XBBFW","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-12-31T17:39:58.497183+00:00"
+    }
+  ]
+}
