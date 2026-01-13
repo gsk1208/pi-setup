@@ -1,0 +1,15 @@
+services:
+  plex:
+    image: lscr.io/linuxserver/plex:latest
+    container_name: plex
+    network_mode: host
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    volumes:
+      - ${PLEX_CONFIG}:/config
+      - ${MOVIES_PATH}:/movies
+      - ${TV_PATH}:/tv
+      - ${MUSIC_PATH}:/music
+    restart: unless-stopped
