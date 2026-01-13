@@ -8,10 +8,16 @@ SERVICES_DIR="/home/$USER_NAME/pi-setup/services"
 
 echo -e "\e[34m=== STEP 1: System update ===\e[0m"
 sudo apt update
+sudo apt install --only-upgrade -y rpi-connect
 sudo apt upgrade -y
 
-echo -e "\e[34m=== STEP 2: Install basic deps ===\e[0m"
+echo -e "\e[34m=== STEP 2: Install basic deps and OpenMediaVault ===\e[0m"
 sudo apt install -y curl ca-certificates gnupg lsb-release rsync
+
+#wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/preinstall | sudo bash
+#wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
+
+echo -e "\e[33m=== OMV installation finished. Reboot required ===\e[0m"
 
 echo -e "\e[34m=== STEP 3: Install Docker (if missing) ===\e[0m"
 if ! command -v docker >/dev/null 2>&1; then
@@ -60,7 +66,7 @@ for svc in pihole portainer plex homeassistant; do
   if [ -d "$SERVICES_DIR/$svc" ]; then
     echo -e "\e[33mStarting $svc\e[0m"
     cd "$SERVICES_DIR/$svc"
-    sudo docker compose up -d
+    docker compose up -d
   fi
 done
 

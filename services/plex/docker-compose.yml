@@ -1,7 +1,7 @@
 services:
   plex:
     image: lscr.io/linuxserver/plex:latest
-    platform: linux/armv71
+    platform: linux/arm64
     container_name: plex
     network_mode: host
     environment:
