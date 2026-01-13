@@ -60,7 +60,7 @@ for svc in pihole homeassistant portainer; do
   if [ -d "$SERVICES_DIR/$svc" ]; then
     echo -e "\e[33mStarting $svc\e[0m"
     cd "$SERVICES_DIR/$svc"
-    docker compose up -d
+    sudo docker compose up -d
   fi
 done
 
