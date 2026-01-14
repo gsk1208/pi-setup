@@ -62,7 +62,7 @@ sudo chown -R $USER_NAME:$USER_NAME "$SERVICES_DIR"
 
 echo -e "\e[34m=== STEP 8: Start services (if present) ===\e[0m"
 
-for svc in pihole portainer plex homeassistant; do 
+for svc in pihole portainer twingate1 twingate2 plex homeassistant; do 
   if [ -d "$SERVICES_DIR/$svc" ]; then
     echo -e "\e[33mStarting $svc\e[0m"
     cd "$SERVICES_DIR/$svc"
